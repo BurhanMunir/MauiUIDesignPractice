@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{4057F58F-21C5-4D7D-B0DB-C9C2327C3CF4}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.MauiUIDesignPractice FirstBuild="True" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A91771FD-EEC4-4DC0-82F2-2BFCC421A9AF" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MauiUIDesignPractice/MainPage.xaml">
+    <Files>
+      <File FileName="MauiUIDesignPractice/MainPage.xaml.cs" />
+      <File FileName="MauiUIDesignPractice/MainPage.xaml" Line="12" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MauiUIDesignPractice" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A91771FD-EEC4-4DC0-82F2-2BFCC421A9AF" />
+</Properties>
