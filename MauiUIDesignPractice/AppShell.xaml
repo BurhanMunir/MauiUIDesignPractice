@@ -4,13 +4,15 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MauiUIDesignPractice"
+    xmlns:pages="clr-namespace:MauiUIDesignPractice.Pages"
     Shell.FlyoutBehavior="Disabled"
     Title="MauiUIDesignPractice">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        ContentTemplate="{DataTemplate pages:ProfilePage}"
+        Route="ProfilePage"
+        Shell.NavBarIsVisible="False"
+        Shell.FlyoutItemIsVisible="False"/>
 
 </Shell>
 

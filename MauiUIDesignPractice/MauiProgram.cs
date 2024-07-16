@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using MauiUIDesignPractice.ViewModels;
+using Microsoft.Extensions.Logging;
 
 namespace MauiUIDesignPractice;
 
@@ -14,7 +15,7 @@ public static class MauiProgram
                 fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
             });
-
+        builder.Services.AddTransient<ProfileViewModel>();
 #if DEBUG
         builder.Logging.AddDebug();
 #endif

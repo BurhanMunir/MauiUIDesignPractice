@@ -65,4 +65,28 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Models\" />
+	  <None Remove="ViewModels\" />
+	  <None Remove="Resources\Images\timeline.png" />
+	  <None Remove="Resources\Images\modelprofile.png" />
+	  <None Remove="Resources\Images\medal.png" />
+	  <None Remove="Resources\Images\location.png" />
+	  <None Remove="Resources\Images\folder.png" />
+	  <None Remove="Resources\Images\age.png" />
+	  <None Remove="Pages\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Models\" />
+	  <Folder Include="ViewModels\" />
+	  <Folder Include="Pages\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\timeline.png" />
+	  <BundleResource Include="Resources\Images\modelprofile.png" />
+	  <BundleResource Include="Resources\Images\medal.png" />
+	  <BundleResource Include="Resources\Images\location.png" />
+	  <BundleResource Include="Resources\Images\folder.png" />
+	  <BundleResource Include="Resources\Images\age.png" />
+	</ItemGroup>
 </Project>
